@@ -1,7 +1,9 @@
 # climenu
-Tiny hierarchical menu suitable for serial or command line interface. Can be used in CLI projects but exactly this implementation is built for AVR, effictively using RAM and PROGMEM strings.
+Tiny hierarchical menu suitable for serial or command line interface. Can be used in CLI projects but 
+exactly this implementation is built for AVR, effictively using RAM and PROGMEM strings.
 
-Integrating menu in your project is easy, just fill in the structure like below. The structure defines the tree hierarchy and addresses of variables to be filled in.
+Integrating menu in your project is easy, just fill in the structure like below. The structure defines 
+the tree hierarchy and addresses of variables to be filled in.
 
 const char szpText0[] PROGMEM = "Main menu";
 ...
